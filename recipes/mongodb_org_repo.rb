@@ -21,7 +21,7 @@
 
 # Sets up the repositories for stable mongodb-org packages found here:
 # http://www.mongodb.org/downloads#packages
-node.override['mongodb']['package_name'] = 'mongodb-org'
+node.override['mongodb']['package_name'] = 'mongodb-10gen'
 
 case node['platform_family']
 when 'debian'
